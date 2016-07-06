@@ -89,6 +89,15 @@ body {
 }
 
 @media(min-width:768px) {
+
+    .navbar-custom.in-portfolio a {
+        color: #333;
+    }
+
+    .navbar-custom.in-portfolio li a:hover {
+        color: #808080;
+    }
+
     .navbar-custom {
         padding: 20px 0;
         border-bottom: 0;
