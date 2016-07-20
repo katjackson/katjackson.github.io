@@ -42,6 +42,15 @@
                 <a class="navbar-brand page-scroll" href="#page-top">
                     KJ
                 </a>
+                <a class="navbar-brand page-scroll" href="mailto:kathryn.jackson.nc@gmail.com">
+                    <i class="fa fa-envelope-o fa-fw"></i>
+                </a>
+                <a class="navbar-brand page-scroll" href="https://github.com/katjackson">
+                    <i class="fa fa-github fa-fw"></i>
+                </a>
+                <a class="navbar-brand page-scroll" href="https://www.linkedin.com/in/kathrynajackson">
+                    <i class="fa fa-linkedin fa-fw"></i>
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -260,8 +269,10 @@
         if ($("li.active").find('a')[0].text == "Portfolio") {
             console.log('hit')
             $('.navbar-custom').addClass('in-portfolio');
+            $('.navbar-toggle').addClass('in-portfolio');
         } else {
             $('.navbar-custom').removeClass('in-portfolio');
+            $('.navbar-toggle').removeClass('in-portfolio');
         }
     })
     </script>
